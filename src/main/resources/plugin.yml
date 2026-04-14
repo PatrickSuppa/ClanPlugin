@@ -3,7 +3,7 @@ version: ${version}
 main: com.clansplugin.ClansPlugin
 api-version: '1.21'
 author: Patrick Suppa
-description: Plugin clan con territori WorldGuard, home, protezioni, MariaDB e PlaceholderAPI
+description: Plugin clan con territori WorldGuard, home, protezioni, PlaceholderAPI
 softdepend: [PlaceholderAPI, WorldGuard]
 commands:
   clan:

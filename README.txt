@@ -1,17 +1,19 @@
-Apri il progetto in IntelliJ e lancia il task Gradle: shadowJar
-oppure usa il tuo Gradle locale: gradle clean shadowJar
-
-Il jar finale sara in build/libs/ClansTerritoryPlugin-1.0.0.jar
-
-Config database preimpostata:
-- type: mysql
-- host: interchange.proxy.rlwy.net
-- port: 40849
-- name: railway
-- username: root
-- password: eXUTGQhxAqNrvHkpHiwUFAUNZqwVdXtT
-
 Plugin richiesti sul server:
 - WorldEdit
 - WorldGuard
 - PlaceholderAPI (solo se vuoi i placeholder)
+
+Comandi plugin clan:
+/clan create <nome> <tag> - Crea nuovo clan
+/clan disband - Sciogli clan (solo leader)
+/clan invite <player> - Invita giocatore
+/clan kick <player> - Espelli membro
+/clan promote/demote <player> - Gestisci ruoli
+/clan chat <messaggio> - Chat clan
+/clan claim - Reclama territorio attuale
+/clan unclaim - Libera territorio
+/clan home - Teletrasporto home
+/clan sethome - Imposta home clan
+/clan info [clan] - Info clan
+
+Plugin per PaperMC 1.21.8 (Minecraft Java Edition) Java 21 

@@ -1,0 +1,16 @@
+name: ClansTerritoryPlugin
+version: ${version}
+main: com.clansplugin.ClansPlugin
+api-version: '1.21'
+author: Patrick Suppa
+description: Plugin clan con territori WorldGuard, home, protezioni, MariaDB e PlaceholderAPI
+softdepend: [PlaceholderAPI, WorldGuard]
+commands:
+  clan:
+    description: Gestione completa clan e territori
+    usage: /clan
+    aliases: [clans]
+permissions:
+  clans.admin:
+    description: Permette di bypassare le protezioni territori e amministrare il plugin
+    default: op

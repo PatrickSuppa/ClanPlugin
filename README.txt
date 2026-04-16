@@ -18,4 +18,4 @@ Comandi plugin clan:
 
 Plugin per PaperMC 1.21.8 (Minecraft Java Edition) Java 21 
 
-ClanPlugin(Su Modrinth tra un po !!!)
+ClanPlugin(Mod su Modrinth!!!)https://modrinth.com/plugin/clanpluginmc
